@@ -1,0 +1,23 @@
+# CMake and compiler output
+/build*/
+/out/
+/dist/
+CMakeUserPresets.json
+
+# Local secrets. Keep the empty template in version control.
+.env
+.env.*
+!.env.example
+
+# IDE-local configuration
+/.vscode/
+/.idea/
+*.user
+
+# Runtime and translation backups
+*.stardewtranslator.bak
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
